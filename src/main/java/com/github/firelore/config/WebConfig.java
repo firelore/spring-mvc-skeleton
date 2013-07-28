@@ -10,7 +10,7 @@ import org.springframework.web.servlet.view.UrlBasedViewResolver;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan(basePackages = {"com.github.firelore.controllers"})
+@ComponentScan(basePackages = {"com.github.firelore.controller"})
 public class WebConfig {
 	@Bean
 	public ViewResolver viewResolver() {
