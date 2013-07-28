@@ -20,7 +20,8 @@ public class Web extends AbstractAnnotationConfigDispatcherServletInitializer {
 	@Override
 	protected String[] getServletMappings() {
 		return new String[] { 
-			"/" 
+			"/",
+			"/example/*"
 		};
 	}
 
